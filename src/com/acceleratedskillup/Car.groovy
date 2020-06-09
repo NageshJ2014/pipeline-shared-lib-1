@@ -9,7 +9,7 @@ class Car {
 	Car(script) {
 		this.script = script
 	}
-	Car(script,NoDoor,brand,model) {
+	Car(script,NoDoor,Brd,Mdl) {
 		this.script = script;
 		numberOfDoors = NoDoor;
 		brand = brand;
