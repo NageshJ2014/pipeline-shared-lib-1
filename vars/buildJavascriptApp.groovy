@@ -1,5 +1,5 @@
-//def call(Map config=[:], Closure body) {
-def call(Map config=[:]) {
+def call(Map config=[:], Closure body) {
+
     node {
         git url: "https://github.com/werne2j/sample-nodejs"
         stage("Install") {
@@ -16,6 +16,6 @@ def call(Map config=[:]) {
                 echo "Came Into Deploy Block"
             }
         }
-        //body()
+        body()
     }
 }
