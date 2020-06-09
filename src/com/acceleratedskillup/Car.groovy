@@ -9,6 +9,12 @@ class Car {
 	Car(script) {
 		this.script = script
 	}
+	Car(script,NoDoor,brand,model) {
+		this.script = script;
+		numberOfDoors = NoDoor;
+		brand = brand;
+		model = model;
+	}
 	
   	void printOutCar() {
 		script.echo "using script.echo"
