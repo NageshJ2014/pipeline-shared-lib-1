@@ -12,8 +12,8 @@ class Car {
 	Car(script,NoDoor,Brd,Mdl) {
 		this.script = script;
 		numberOfDoors = NoDoor;
-		brand = brand;
-		model = model;
+		brand = Brd;
+		model = Mdl;
 	}
 	
   	void printOutCar() {
