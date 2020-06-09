@@ -21,7 +21,7 @@ class Car {
   		script.echo "numberOfDoors:${numberOfDoors}"    	
 		script.echo "brand:${brand}"    	
 		script.echo "model:${model}"
-		script.echo "Can Print The Build Number script.BUILD_NUMBER "
+		script.echo "Can Print The Build Number ${script.BUILD_NUMBER} "
   	}  
   
 }
